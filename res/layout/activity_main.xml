@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="36dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/editText"
+            android:inputType="phone" >
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/editText2"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:hint="@string/editText3"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/SendButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.10"
+            android:text="@string/SendButton" />
+        <Button
+            android:id="@+id/ResetButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.10"
+            android:text="@string/ResetButton" />
+
+        <Button
+            android:id="@+id/CloseButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.10"
+            android:text="@string/CloseButton" />
+
+    </LinearLayout>
+    
+</LinearLayout>
+</ScrollView>

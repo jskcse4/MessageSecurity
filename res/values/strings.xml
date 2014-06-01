@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Message Security</string>
+    <string name="action_settings">Settings</string>
+    <string name="ResetButton">Reset</string>
+    <string name="CloseButton">Close</string>
+    <string name="SendButton">Send</string>
+    <string name="DecryptButton">Decrypt</string>
+    <string name="editText">To: (Click Here to Add Contact. . .)</string>
+    <string name="editText2">Enter Your Text Here!!!</string>
+    <string name="editText3">Converted Text. . .</string>
+    <string name="DecryButton">Show Message</string>
+
+</resources>
